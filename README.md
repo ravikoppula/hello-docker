@@ -1,4 +1,3 @@
-
 1️⃣ Project Structure
 
 hello-docker/
@@ -54,7 +53,4 @@ Push the image to Docker Hub:
 Now, anyone can run your image with:
 
 ``docker run your-dockerhub-username/hello-docker``
-
-
-
 
