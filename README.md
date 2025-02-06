@@ -6,21 +6,16 @@ hello-docker/
 └── Dockerfile
 
 2️⃣ Build the Docker Image
-`docker build -t hello-docker .
-`
 
-`
-docker images
+``docker build -t hello-docker .``
 
-`
+``docker images``
+
 3️⃣ Run the Docker Container
-`
-docker run --name my-container hello-docker
-
-`
+``docker run --name my-container hello-docker``
 
 To list running containers:
-`docker ps`
+``docker ps``
 
 To list all containers (including stopped ones):
 
